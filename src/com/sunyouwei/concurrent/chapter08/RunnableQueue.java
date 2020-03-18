@@ -1,6 +1,7 @@
 package com.sunyouwei.concurrent.chapter08;
 
 public interface RunnableQueue {
+
     /**
      * 当有新的任务进来时首先会offer到 队列中
      *

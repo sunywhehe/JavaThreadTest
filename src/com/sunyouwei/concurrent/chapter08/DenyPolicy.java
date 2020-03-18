@@ -2,6 +2,7 @@ package com.sunyouwei.concurrent.chapter08;
 
 @FunctionalInterface
 public interface DenyPolicy {
+
     void reject(Runnable runnable, ThreadPool threadPool);
 
     class DiscardDenyPolicy implements DenyPolicy {
